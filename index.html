@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1 id="title">American Academy of Forensic Sciences Survey Form</h1>
+    <div id="form-outer">
+        <p id="description">
+            How can we improve the Academy
+        </p>
+        <form id="survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="name-label" for="name">* Name: </label>
+                </div>
+                <div class="rightTab">
+                    <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="email-label" for="email">* Email: </label>
+                </div>
+                <div class="rightTab">
+                    <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="number-label" for="age">* Age: </label>
+                </div>
+                <div class="rightTab">
+                    <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="currentPos">How are you affiliated?</label>
+                </div>
+                <div class="rightTab">
+                    <select id="dropdown" name="currentPos" class="dropdown">
+                        <option disabled value>Select an option</option>
+                        <option value="student">Student</option>
+                        <option value="anthropology">Anthropology</option>
+                        <option value="criminalistics">Criminalistics</option>
+                        <option value="digital">Digital & Multimedia Sciences</option>
+                        <option value="engineering">Engineering Sciences</option>
+                        <option value="general">General</option>
+                        <option value="jurisprudence">Jurisprudence</option>
+                        <option value="odontology">Odontology</option>
+                        <option value="patholgy/biology">Pathology/Biology</option>
+                        <option value="psychiatry/behavioral">Psychiatry/Behavioral</option>
+                        <option value="documents">Questioned Documents</option>
+                        <option value="toxicology">Toxicology</option>
+                        <option value="preferNo">Prefer not to say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="userRating">* How do you rate the Academy?</label>
+                </div>
+                <div class="rightTab">
+                    <ul style="list-style: none;">
+                        <li class="radio">
+                            <label>High
+                                <input name="radio-buttons" value="1" type="radio" class="userRatings">
+                            </label>
+                        </li>
+                        <li class="radio">
+                            <label>Low
+                                <input name="radio-buttons" value="2" type="radio" class="userRatings">
+                            </label>
+                        </li>
+                        <li class="radio">
+                            <label>Needs improvement
+                                <input name="radio-buttons" value="3" type="radio" class="userRatings">
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="most-like">What do you like most in the AAFS: </label>
+                </div>
+                <div class="rightTab">
+                    <select id="most-like" name="mostLike" class="dropdown">
+                        <option disabled selected value>Select an option</option>
+                        <option value="challenges">Annual Meetings</option>
+                        <option value="projects">Profesional Advancement</option>
+                        <option value="community">Community Networking</option>
+                        <option value="openSource">Publications</option>
+                    </select>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="preferences">Things that should be improved in the future
+                        <br>(Check all that apply): </label>
+                </div>
+                <div class="rightTab">
+                    <ul id="preferences" style="list-style: none;">
+                        <li class="checkbox">
+                            <label>
+                                <input name="prefer" value="1" type="checkbox" class="userRatings">Scientific Working Groups</label>
+                        </li>
+                        <li class="checkbox">
+                            <input name="prefer" value="2" type="checkbox" class="userRatings">Academy Standards Board</li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="prefer" value="3" type="checkbox" class="userRatings">Forensic Standards Foundation</label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="prefer" value="4" type="checkbox" class="userRatings">Resources</label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="prefer" value="5" type="checkbox" class="userRatings">CSI Summer Camps</label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="prefer" value="6" type="checkbox" class="userRatings">Young Forensic Scientists Forum</label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="prefer" value="7" type="checkbox" class="userRatings">Videos</label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="prefer" value="8" type="checkbox" class="userRatings">Journal of Forensic Sciences</label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="prefer" value="9" type="checkbox" class="userRatings">Reference Library</label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="prefer" value="10" type="checkbox" class="userRatings">Humanitarian & Human Rights Resource Center</label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="prefer" value="10" type="checkbox" class="userRatings">Career Resources</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="comments">Any Comments or Suggestions?</label>
+                </div>
+                <div class="rightTab">
+                    <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+                </div>
+            </div>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
